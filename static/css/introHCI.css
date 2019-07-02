@@ -6,14 +6,13 @@
 /* applies to any <p> descendants of an element of class "example-class-selector" */
 .example-class-selector p {
 	/* Colors are in hexadecimal: http://www.colorpicker.com/ */
-	color: #CC00AA;
+	color;
 }
 
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
-     border: 1px dotted gray;
-     padding: 20px;
+     background-image: url("images.jfif");
 }
 
 .jumbotron {
@@ -38,4 +37,12 @@ h1{
 
 img{
      height: 100px;
+}
+
+.myPic, .facebook, .twitter {
+     text-align: center;
+}
+
+.asd {
+     text-align: center;
 }
